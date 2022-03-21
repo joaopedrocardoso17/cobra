@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+ }
+
+ .corpo {
+     background: url("../img/D-LhYk_XkAEkmDK.jpg");
+     background-size: 100vw 100vh;
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+ }
+
+ #pontuacao {
+     position: absolute;
+     top: 30px;
+     right: 100px;
+     font-size: 39px;
+     font-weight: bold;
+     font-family: fantasy;
+     color: white;
+ }
+
+ div#board {
+    width: 90vh;
+    height: 90vh;
+    background:linear-gradient(rgba(74, 19, 224, 0.603), rgb(0, 0, 0)); 
+    border: 7px solid black;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+ }
+
+ div.head {
+     background: linear-gradient(#0d837d,#7400f8);
+     border: 2px solid #000;
+     transform: scale(1.02);
+     border-radius: 15px;
+ }
+
+ div.snake {
+    background: linear-gradient(#571ff0, #000);
+    border: 1px solid white;
+    border-radius: 15px;
+ }
+
+ div.fruta {
+     background: url("../img/meme-cringe-harold-dank-freetoedit-cringe-harold-115629829958cyz0hdef7.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+ }
